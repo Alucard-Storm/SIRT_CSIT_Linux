@@ -1,0 +1,29 @@
+Basic Terminal Commands
+    whoami - shows current user
+    pwd - present wroking directory
+    mkdir - Make Directory (Create new folder)
+    cd - Change Directory
+    cd ~ - changes folder to home
+    cd / - changes folder to root
+    rmdir - Remove Directory (Only if the folder is empty)
+    rm - Remove, can be used to remove files or folders (for folder we need -r option)
+    touch - creates new file
+    vi and nano - text editors
+    top - shows task manager
+    htop - a better task manager (might not be installed on all distros)
+    pid - process id
+    kill pid - stops the given process
+    cp source destination- copy file or folder (for folder we need -r option)
+    mv source destination - move file or folder (for folder we need -r option) | mv can also be used to rename files
+    sudo - super user
+    chmod - change permission
+    adduser - adds new user
+    echo $SHELL
+
+
+Commonly Used Shells
+    SH - Bourne Shell
+    BASH - Bourne Again SHell
+    ZSH - Z Shell
+    FISH - Friendly Interactive Shell
+Most Commonly used shell right now is Bash (because of debian/Ubuntu) and zsh(because of MacOS)
