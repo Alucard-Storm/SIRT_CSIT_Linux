@@ -7,6 +7,21 @@ read A
 echo "write second number"
 read B
 
+# + : Add
+# - : Substract
+# * : Multiply
+# / : Divide
+# % : Mod (Remainder)
+# = : assign
+# == : equal to
+# != : not equal
+# -eq : equal to
+# -ne : not equal
+# -gt : greater than
+# -ge : greater than or equal
+# -lt : less than
+# -le : less than or equal
+
 # direct operations in echo
 echo "Addition is "$(("A+B"))
 echo "$A+$B" | bc
