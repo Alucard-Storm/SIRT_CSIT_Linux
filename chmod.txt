@@ -1,0 +1,42 @@
+chmod is used for changing permissions of files and folders, it's of two types Absolute and Symbolic.
+
+Absolute: uses 3 digit numbers, in which 
+
+    0 - None
+    1 - execute
+    2 - write
+    3 - write and execute
+    4 - read
+    5 - read and execute
+    6 - read and write
+    7 - read, write, execute
+
+    1st digit is for user, 2nd for group and 3rd is for others
+
+    example 1 : chmod 666 file_name
+    example 2 : chmod 046 file_name
+
+
+Symbolic: uses symbols to assign or remove permission
+
+    ---------
+    rwxrwxrwx
+
+    symbols Used
+
+    + : Add permission
+    - : Remove permission
+    = : override permission
+
+    User Groups
+
+    u : User/Owner
+    g : Groups
+    o : Others 
+    a : All
+
+    example 1 : chmod u+x file_name
+    example 2 : chmod g-w file_name
+    example 3 : chmod o-r file_name
+    example 4 : chmod a+rwx file_name
+    test : ls -l file_name
