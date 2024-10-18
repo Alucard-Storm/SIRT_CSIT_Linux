@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-#bc stands for basic calculations
+# bc stands for basic calculations
 
 # float operations
 d=10.2
