@@ -1,29 +1,30 @@
 Basic Terminal Commands
-    whoami - shows current user
-    pwd - present wroking directory
-    mkdir - Make Directory (Create new folder)
-    cd - Change Directory
-    cd ~ - changes folder to home
-    cd / - changes folder to root
-    rmdir - Remove Directory (Only if the folder is empty)
-    rm - Remove, can be used to remove files or folders (for folder we need -r option)
-    touch - creates new file
-    vi and nano - text editors
-    top - shows task manager
-    htop - a better task manager (might not be installed on all distros)
-    pid - process id
-    kill pid - stops the given process
-    cp source destination- copy file or folder (for folder we need -r option)
-    mv source destination - move file or folder (for folder we need -r option) | mv can also be used to rename files
-    sudo - super user
-    chmod - change permission
-    adduser - adds new user
-    echo $SHELL
+    whoami - Shows the username of the currently logged in user
+    pwd - Prints the Present Working Directory (current location in the filesystem)
+    mkdir - Make Directory: Creates a new folder/directory. Usage: mkdir foldername
+    cd - Change Directory: Navigates between folders. Usage: cd foldername
+    cd ~ - Changes directory to the current user's home folder (e.g. /home/username)
+    cd / - Changes directory to the root folder, which is the top-level directory
+    rmdir - Remove Directory: Deletes an empty directory. Usage: rmdir foldername
+    rm - Remove: Deletes files or directories. Use -r flag for recursive deletion of directories. Usage: rm file.txt or rm -r folder
+    touch - Creates a new empty file. Usage: touch filename.txt
+    vi and nano - Terminal-based text editors for creating/editing files
+    top - Displays system processes and resource usage in real-time (like Task Manager)
+    htop - An enhanced version of top with better UI and features (needs installation)
+    pid - Process ID: Unique number assigned to each running process
+    kill pid - Terminates a process using its PID number. Usage: kill 1234
+    cp - Copy: Copies files/folders. Use -r for directories. Usage: cp source.txt destination/ or cp -r sourcefolder destfolder
+    mv - Move/Rename: Moves or renames files/folders. Usage: mv oldname.txt newname.txt or mv file.txt /new/location/
+    sudo - Super User Do: Executes commands with administrative/root privileges
+    chmod - Change Mode: Modifies file/directory permissions. Usage: chmod 755 file.txt
+    adduser - Creates a new user account on the system. Requires sudo privileges
+    echo $SHELL - Displays the path to the current shell being used
 
 
 Commonly Used Shells
-    SH - Bourne Shell
-    BASH - Bourne Again SHell
-    ZSH - Z Shell
-    FISH - Friendly Interactive Shell
-Most Commonly used shell right now is Bash (because of debian/Ubuntu) and zsh(because of MacOS)
+    SH - Bourne Shell: The original Unix shell, simple but limited
+    BASH - Bourne Again SHell: Enhanced version of sh, most widely used
+    ZSH - Z Shell: Extended Bourne shell with additional features and improvements
+    FISH - Friendly Interactive Shell: Modern shell focused on user-friendliness and interactive use
+
+Most Commonly used shell right now is Bash (because of debian/Ubuntu) and zsh(because of MacOS). Bash is the default shell in most Linux distributions, while macOS has switched to zsh as its default shell since Catalina.
