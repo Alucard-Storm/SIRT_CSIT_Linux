@@ -1,14 +1,24 @@
-# List of Experiments
+# UNIX/Linux Laboratory Experiments
+
+This repository contains practical experiments for learning Unix/Linux system administration and usage.
+
+## List of Experiments
 
 | NO. | Experiment Name |
-| -- | ---------------- |
-| 1. | To Study basic & User status / Linux Commands. |
-| 2. | Installation, Configuration & Customizations of Unix/Linux. |
-| 3. | Study & use of commands for performing arithmetic operations in Unix/Linux. |
-| 4. | Study & use of the Command for changing file permissions. |
-| 5. | Write a shell script using if…else loop to print eligibility age to drive. |
-| 6. | Write a shell script using for loop to print integer. |
-| 7. | Write a shell script using while loop to print integer. |
-| 8. | Write a shell script to find the factorial of given integer. |
-| 9. | Write a shell script that displays a list of all the files in the current directory. |
-| 10. | Write a Shell script to get number of files present in any directory. |
+| --- | -------------- |
+| 1. | [To Study basic & User status Unix/Linux Commands](Experiment01.md) |
+| 2. | [Study & use of commands for performing arithmetic operations with Unix/Linux](Experiment02.md) |
+| 3. | [Create and analyze wlcc.md file for line, word, and character count](Experiment03.md) |
+| 4. | [File operations: Appending and splitting files](Experiment04.md) |
+| 5. | [Finding common names between two files](Experiment05.md) |
+| 6. | [Finding inode numbers of files](Experiment06.md) |
+| 7. | [Study & use of commands for changing file permissions](Experiment07.md) |
+| 8. | [Pipeline commands for user monitoring](Experiment08.md) |
+| 9. | [Execute shell commands through vi editor](Experiment09.md) |
+| 10. | [Installation, Configuration & Customizations of Unix/Linux](Experiment10.md) |
+| 11. | [Shell script to print arguments in reverse order](Experiment11.md) |
+| 12. | [Shell script to find smallest of three numbers](Experiment12.md) |
+| 13. | [Shell script for monitoring user login](Experiment13.md) |
+| 14. | [Installation of SAMBA, APACHE, TOMCAT](Experiment14.md) |
+| 15. | [Implementation of DNS, LDAP services](Experiment15.md) |
+| 16. | [Study & installation of Firewall & Proxy server](Experiment16.md) |
